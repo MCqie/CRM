@@ -81,6 +81,7 @@ public:
         }
         return true;
     }
+    void unuse(){}
 };
 
 #endif //CRM_UTIL_H
