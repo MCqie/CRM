@@ -1,0 +1,3 @@
+D:/ProgramData/ClionProj/Socket/cmake-build-debug/CMakeFiles/Socket.dir
+D:/ProgramData/ClionProj/Socket/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ProgramData/ClionProj/Socket/cmake-build-debug/CMakeFiles/rebuild_cache.dir
