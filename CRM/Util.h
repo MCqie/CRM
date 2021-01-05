@@ -71,8 +71,7 @@ public:
     static bool ckeckID(Goods_List *gl, int id) {
         list<Goods>::iterator iter;
         iter = gl->getiter();
-        int i = 0;
-        for (; i < gl->getList().size(); i++) {
+        for (int i=0; i < gl->getList().size(); i++) {
             if (gl->get(i).id == id) {
                 cout << "此ID已经重复" << endl;
                 cout << gl->get(i).toString() << endl;

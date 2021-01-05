@@ -21,7 +21,6 @@ public:
     static Goods InputGoods() {
         return Goods::inputNew();
     }
-
     void impl(Goods_List *gl) override {
         Goods g = InputGoods();
         char c;
@@ -113,6 +112,7 @@ public:
         if (gll.getList().empty()) {
             cout << "未查询到信息" << endl;
         } else {
+            cout<<"共找到"<<gll.getList().size()<<"个"<<endl;
             AllGoodImpl().impl(&gll);
         }
         cout << "是否继续(y/n)" << endl;
